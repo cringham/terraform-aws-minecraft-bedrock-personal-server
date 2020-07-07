@@ -1,6 +1,6 @@
 locals {
-  server_package_install_dir = "bedrock-server-1.14.60.5"
-  server_package_filename    = "bedrock-server-1.14.60.5.zip"
+  server_package_install_dir = "bedrock-server"
+  server_package_filename    = "bedrock-server.zip"
   enable_snapshots           = var.snapshot_config.hour_interval != -1 && var.snapshot_config.time != "" && var.snapshot_config.retain != -1
 }
 
