@@ -150,6 +150,10 @@ resource "aws_security_group_rule" "egress" {
 ######
 resource "aws_eip" "this" {
   vpc = true
+
+  tags = {
+    Name = "minecraft-${var.tag_postfix}-eip"
+  }
 }
 
 resource "aws_eip_association" "this" {
