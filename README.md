@@ -1,14 +1,8 @@
-# terraform-module-minecraft-bedrock-server-1.14.60.5
+# terraform-aws-minecraft-bedrock-personal-server
 
-Terraform module for launching and initializing a dedicated Minecraft Bedrock server. Check out the `~/examples` folder for examples on how you can use this module.
+Terraform module for launching and initializing a dedicated Minecraft Bedrock server. The initialization features of this module only officially support Ubuntu servers running Minecraft Bedrock server v1.16.1.02, but may work with other versions as well. Check out the `~/examples` folder for examples on how you can use this module.
 
-## TODO
-
-- Create network diagram
-
-- Create examples directory
-
-- Support pushing of permissions.json
+![Architecture Diagram](./files/architecture_diagram.png)
 
 ---
 

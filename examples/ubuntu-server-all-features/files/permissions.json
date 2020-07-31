@@ -1,0 +1,14 @@
+[
+    {
+        "permission": "operator",
+        "xuid": "<your xuid>"
+    },
+    {
+        "permission": "operator",
+        "xuid": "<trusted friend's xuid>"
+    },
+    {
+        "permission": "operator",
+        "xuid": "<...>"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "ignoresPlayerLimit": true,
+        "name": "<you>"
+    },
+    {
+        "ignoresPlayerLimit": false,
+        "name": "<guest1>"
+    },
+    {
+        "ignoresPlayerLimit": false,
+        "name": "<guest2>"
+    },
+    {
+        "ignoresPlayerLimit": false,
+        "name": "<guest3>"
+    },
+    {
+        "ignoresPlayerLimit": false,
+        "name": "<...>"
+    }
+]
